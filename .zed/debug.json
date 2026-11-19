@@ -1,0 +1,9 @@
+[
+  {
+    "label": "build_and_run_debug",
+    "build": "cmake_build_debug",
+    "program": "$ZED_WORKTREE_ROOT/build/$ZED_STEM",
+    "request": "launch",
+    "adapter": "CodeLLDB",
+  },
+]
